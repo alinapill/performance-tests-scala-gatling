@@ -19,14 +19,9 @@ To run performance tests on local-machine against a targeted environment, use ne
 
 **Implementation Details**
 
-The performance tests are calling TBD endpoint with both single and multiple skuIds GET requests.
-
-The tests are defined as following:
-
-We ramp up to 110 requests over a period of 4 minutes. 
+The performance tests are calling several endpoints with GET and POST requests.
 
 
-Available simulation properties:
 
 **General Settings**
 
@@ -52,7 +47,7 @@ Available simulation properties:
    
 **Percentiles**
 
-Our current requirements for response times split by percentiles, as follows:
+Requirements for response times split by percentiles are as follows:
 
 ```
 RESPONSE_99_PERCENTILE: 2500
