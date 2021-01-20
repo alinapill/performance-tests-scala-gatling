@@ -3,5 +3,5 @@
   "firstName": "${name}",
   "lastName": "DummyLastName",
   "dob": "1994-10-10",
-  "email": "test@test.com"
+  "email": "test@test.ro"
 }

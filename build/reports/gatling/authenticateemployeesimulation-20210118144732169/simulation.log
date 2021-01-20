@@ -1,0 +1,61 @@
+RUN	simulations.AuthenticateEmployeeSimulation	authenticateemployeesimulation	1610981252169	 	3.5.0
+USER	Employees | Authenticate	START	1610981253209
+REQUEST		get_all_employees	1610981253250	1610981253511	OK	 
+USER	Employees | Authenticate	END	1610981253533
+USER	Employees | Authenticate	START	1610981253696
+REQUEST		get_all_employees	1610981253697	1610981253956	OK	 
+USER	Employees | Authenticate	END	1610981253957
+USER	Employees | Authenticate	START	1610981254198
+REQUEST		get_all_employees	1610981254198	1610981254460	OK	 
+USER	Employees | Authenticate	END	1610981254461
+USER	Employees | Authenticate	START	1610981254698
+REQUEST		get_all_employees	1610981254699	1610981254960	OK	 
+USER	Employees | Authenticate	END	1610981254961
+USER	Employees | Authenticate	START	1610981255199
+REQUEST		get_all_employees	1610981255199	1610981255441	OK	 
+USER	Employees | Authenticate	END	1610981255443
+USER	Employees | Authenticate	START	1610981255693
+REQUEST		get_all_employees	1610981255694	1610981255951	OK	 
+USER	Employees | Authenticate	END	1610981255952
+USER	Employees | Authenticate	START	1610981256196
+REQUEST		get_all_employees	1610981256196	1610981256459	OK	 
+USER	Employees | Authenticate	END	1610981256460
+USER	Employees | Authenticate	START	1610981256695
+REQUEST		get_all_employees	1610981256696	1610981256975	OK	 
+USER	Employees | Authenticate	END	1610981256977
+USER	Employees | Authenticate	START	1610981257192
+REQUEST		get_all_employees	1610981257193	1610981257445	OK	 
+USER	Employees | Authenticate	END	1610981257446
+USER	Employees | Authenticate	START	1610981257695
+REQUEST		get_all_employees	1610981257696	1610981257959	OK	 
+USER	Employees | Authenticate	END	1610981257961
+USER	Employees | Authenticate	START	1610981258192
+REQUEST		get_all_employees	1610981258193	1610981258437	OK	 
+USER	Employees | Authenticate	END	1610981258439
+USER	Employees | Authenticate	START	1610981258691
+REQUEST		get_all_employees	1610981258692	1610981258936	OK	 
+USER	Employees | Authenticate	END	1610981258937
+USER	Employees | Authenticate	START	1610981259196
+REQUEST		get_all_employees	1610981259196	1610981259474	OK	 
+USER	Employees | Authenticate	END	1610981259475
+USER	Employees | Authenticate	START	1610981259693
+REQUEST		get_all_employees	1610981259694	1610981259954	OK	 
+USER	Employees | Authenticate	END	1610981259956
+USER	Employees | Authenticate	START	1610981260195
+REQUEST		get_all_employees	1610981260196	1610981260446	OK	 
+USER	Employees | Authenticate	END	1610981260447
+USER	Employees | Authenticate	START	1610981260693
+REQUEST		get_all_employees	1610981260694	1610981261109	OK	 
+USER	Employees | Authenticate	END	1610981261110
+USER	Employees | Authenticate	START	1610981261192
+REQUEST		get_all_employees	1610981261192	1610981261445	OK	 
+USER	Employees | Authenticate	END	1610981261446
+USER	Employees | Authenticate	START	1610981261692
+REQUEST		get_all_employees	1610981261693	1610981261953	OK	 
+USER	Employees | Authenticate	END	1610981261955
+USER	Employees | Authenticate	START	1610981262193
+REQUEST		get_all_employees	1610981262193	1610981262442	OK	 
+USER	Employees | Authenticate	END	1610981262443
+USER	Employees | Authenticate	START	1610981262697
+REQUEST		get_all_employees	1610981262697	1610981262947	OK	 
+USER	Employees | Authenticate	END	1610981262948

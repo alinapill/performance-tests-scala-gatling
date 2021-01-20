@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.AuthenticateEmployeeSimulation",
+  "simulationId": "authenticateemployeesimulation",
+  "start": 1610981252169,
+  "description": "",
+  "scenarios": ["Employees | Authenticate"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,17 @@
+<testsuite name="simulations.UpdateEmployeeAlternateSimulation" tests="5" errors="0" failures="4" time="0">
+<testcase name="Global: percentage of successful events is greater than 99.0" status="true" time="0">
+  <system-out>Global: percentage of successful events is greater than 99.0</system-out>
+</testcase>
+<testcase name="Could not find stats matching assertion path List(get_all_employees)" status="false" time="0">
+  <failure type="get_all_employees">Actual value: -1.0</failure>
+</testcase>
+<testcase name="Could not find stats matching assertion path List(get_all_employees)" status="false" time="0">
+  <failure type="get_all_employees">Actual value: -1.0</failure>
+</testcase>
+<testcase name="Could not find stats matching assertion path List(get_all_employees)" status="false" time="0">
+  <failure type="get_all_employees">Actual value: -1.0</failure>
+</testcase>
+<testcase name="Could not find stats matching assertion path List(get_all_employees)" status="false" time="0">
+  <failure type="get_all_employees">Actual value: -1.0</failure>
+</testcase>
+</testsuite>

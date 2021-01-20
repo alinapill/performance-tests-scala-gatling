@@ -1,0 +1,90 @@
+{
+  "simulation": "simulations.UpdateEmployeeSimulation",
+  "simulationId": "updateemployeesimulation",
+  "start": 1611046394850,
+  "description": "",
+  "scenarios": ["Random switching between requests"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of successful events",
+  "condition": "is greater than",
+  "expectedValues": [99.0],
+  "result": true,
+  "message": "Global: percentage of successful events is greater than 99.0",
+  "actualValue": [100.0]
+},
+{
+  "path": "get_all_prices_single",
+  "target": "99th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [1500.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_prices_single)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_prices_single",
+  "target": "95th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [1100.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_prices_single)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_prices_single",
+  "target": "75th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [775.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_prices_single)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_prices_single",
+  "target": "50th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [575.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_prices_single)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_prices_multi",
+  "target": "99th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [2500.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_prices_multi)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_prices_multi",
+  "target": "95th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [1250.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_prices_multi)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_prices_multi",
+  "target": "75th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [750.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_prices_multi)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_prices_multi",
+  "target": "50th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [500.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_prices_multi)",
+  "actualValue": [-1.0]
+}
+  ]
+}

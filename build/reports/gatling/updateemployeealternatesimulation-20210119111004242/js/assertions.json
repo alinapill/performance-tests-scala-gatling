@@ -1,0 +1,54 @@
+{
+  "simulation": "simulations.UpdateEmployeeAlternateSimulation",
+  "simulationId": "updateemployeealternatesimulation",
+  "start": 1611054604242,
+  "description": "",
+  "scenarios": ["Update_Employee"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of successful events",
+  "condition": "is greater than",
+  "expectedValues": [99.0],
+  "result": true,
+  "message": "Global: percentage of successful events is greater than 99.0",
+  "actualValue": [99.609375]
+},
+{
+  "path": "get_all_employees",
+  "target": "99th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [11500.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_employees)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_employees",
+  "target": "95th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [11100.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_employees)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_employees",
+  "target": "75th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [7175.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_employees)",
+  "actualValue": [-1.0]
+},
+{
+  "path": "get_all_employees",
+  "target": "50th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [5175.0],
+  "result": false,
+  "message": "Could not find stats matching assertion path List(get_all_employees)",
+  "actualValue": [-1.0]
+}
+  ]
+}

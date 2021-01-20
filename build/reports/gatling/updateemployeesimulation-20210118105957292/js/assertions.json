@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.UpdateEmployeeSimulation",
+  "simulationId": "updateemployeesimulation",
+  "start": 1610967597292,
+  "description": "",
+  "scenarios": ["Random switching between requests"],
+  "assertions": [
+
+  ]
+}
